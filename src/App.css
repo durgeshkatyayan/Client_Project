@@ -12,11 +12,11 @@ body {
 }
 
 .top-section-body pre {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
-  word-spacing: 1px;
+  word-spacing: 3px;
 }
 .logo img{
   height: auto;

@@ -22,17 +22,32 @@ const TopSection = () => {
                 </div>
 
             </div>
-            <div className=' '>
-                <div className='flex items-center gap-5 justify-center'>
-                    <Link className='font-semibold'>All</Link>
-                    <Link className='font-semibold'>PHOTO</Link>
-                    <Link className='font-semibold'>VIDEOS</Link>
-                </div>
-            </div>
 
-            <div className="sm:mt-10  z-50 md:ps-10 lg:ps-48 absolute sm:top-20 top-2 logo">
+            <div className="sm:mt-10 z-50 md:ps-10 lg:ps-48 absolute sm:top-28 top-2 logo">
                 <img src={logo} alt="" className="lg:w-[34rem] sm:w-[24rem] object-contain w-48" />
             </div>
+ 
+
+
+            <div className=' '>
+
+                <div className='flex items-center gap-5 justify-center'>
+                    <Link className='font-bold'>All</Link>
+                    <Link className='font-bold'>PHOTO</Link>
+                    <Link className='font-bold'>VIDEOS</Link>
+                </div>
+
+                <div>
+                    <div className='grid grid-cols-3 px-5 my-2'>
+                        <div className='h-48 w-[21rem] border rounded-md bg-gray-600'></div>
+                        <div className='h-48 w-[21rem] border rounded-md bg-gray-600'></div>
+                        <div className='h-48 w-[21rem] border rounded-md bg-gray-600'></div>
+                    </div>
+                </div>
+
+            </div>
+
+
 
         </div>
     )
