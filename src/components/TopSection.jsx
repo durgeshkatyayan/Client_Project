@@ -114,13 +114,16 @@ const TopSection = () => {
             </div>
 
             <div className='second absolute sm:mt-12'>
-                <img src={ss} alt="" className='absolute  lg:top-[67vh] top-72 md:top-48 w-[80%] text-center opacity-20' />
-                <div className='absolute  bottom-48 xxx'>
+                <img src={ss} alt="" className='absolute opacity-10 lg:top-[56vh] top-72 md:top-52 w-[80%] text-center ' />
+
+                <div className='absolute bottom-80 xxx'>
                     <p className='text-center sm:text-2xl '>Our mission is to honor the heritage of the Alabay by creating a <br /> vibrant, loyal, and powerful community. Just as the Alabay protects its <br />flock, we aim to build a pack that stands strong together.</p>
                 </div>
+
             </div>
+
             <div className='full flex items-center justify-center'>
-                <img src={groupDog} alt="" className='absolute sm:top-[65rem] top-[65rem] w-[80%] text-center' />
+                <img src={groupDog} alt="" className='absolute sm:top-[75rem] md:top-[65rem] top-[71rem] lg:top-[65rem] w-[80%] text-center' />
             </div>
 
         </div>
